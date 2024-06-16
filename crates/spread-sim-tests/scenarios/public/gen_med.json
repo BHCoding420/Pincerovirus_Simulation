@@ -1,0 +1,1325 @@
+{
+    "name": "Medium Size",
+    "gridSize": {
+        "x": 100,
+        "y": 50
+    },
+    "partition": {
+        "x": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99],
+        "y": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49]
+    },
+    "parameters": {
+        "coughThreshold": 20,
+        "breathThreshold": 150,
+        "accelerationDivisor": 20,
+        "recoveryTime": 140,
+        "infectionRadius": 5,
+        "incubationTime": 10
+    },
+    "ticks": 600,
+    "obstacles": [],
+    "statQueries": {},
+    "trace": true,
+    "population": [
+        {
+            "name": "Minion #0001",
+            "pos": {
+                "x": 89,
+                "y": 20
+            },
+            "rngState": "qlPbecVE2QwmJXCyDcU05VC4E7hRJ6+p8EJg7O/vh/c=",
+            "infectionState": {
+                "type": "infected",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0002",
+            "pos": {
+                "x": 70,
+                "y": 26
+            },
+            "rngState": "zqFVRvYC09b/kWnr38VVhQ/j/u8M61LOj2wJbVppoK0=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0003",
+            "pos": {
+                "x": 84,
+                "y": 34
+            },
+            "rngState": "4fCre4igUBEkGmZaWlp2oKeFw5DPh50Hf/yiutNSWfg=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0004",
+            "pos": {
+                "x": 52,
+                "y": 17
+            },
+            "rngState": "P8oE2R3mHrk923r9pAkQzGtSQVVM4HVK04n/u92S774=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0005",
+            "pos": {
+                "x": 41,
+                "y": 11
+            },
+            "rngState": "TJDvjrp2KT5uPiV5A46YcmPSahhZ5jQKTUTxqqpeBOw=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0006",
+            "pos": {
+                "x": 9,
+                "y": 12
+            },
+            "rngState": "vbqhAgFkj0kAEMbXGWplbFBE+vBD9FF9hzgQ7Z2Jto4=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0007",
+            "pos": {
+                "x": 99,
+                "y": 5
+            },
+            "rngState": "ZkI1aGC4vAefPLxBcTeD8/19Vr8/pC6wnwN4KN+egFw=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0008",
+            "pos": {
+                "x": 51,
+                "y": 44
+            },
+            "rngState": "aZVmfNHfqTSYfhoeSePA6WfMr4hHw/45NOoIznT5sto=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0009",
+            "pos": {
+                "x": 86,
+                "y": 1
+            },
+            "rngState": "LR10oVWSuAjho7G+U2+khyAzFtrl8Oa5QTrLjEk5jpw=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0010",
+            "pos": {
+                "x": 44,
+                "y": 10
+            },
+            "rngState": "MUGdrQlpdUrWzW7mLSkZ+53zA2BU7oDzmGGyAlCtEZM=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0011",
+            "pos": {
+                "x": 92,
+                "y": 13
+            },
+            "rngState": "0ZxyZPhh/35LZuDL8bv21m9+kzzPNox4TJhGtWVyqxI=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0012",
+            "pos": {
+                "x": 2,
+                "y": 11
+            },
+            "rngState": "0aDolo3Cc7pSn2gD07lijgigvto3oEScUP5aOB7+vbI=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0013",
+            "pos": {
+                "x": 90,
+                "y": 25
+            },
+            "rngState": "xC7BJXDl5IsrECJhUvglmAUD3Mpp7aGGUeMu0wu++aE=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0014",
+            "pos": {
+                "x": 89,
+                "y": 5
+            },
+            "rngState": "AHXTSnOXe1m+4Rk4c4l8jgzsD7F4D9BtuSFQ+Y3Ul2c=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0015",
+            "pos": {
+                "x": 1,
+                "y": 37
+            },
+            "rngState": "R0EUyHXJtpS9h9oXEaTfa13uteIH7low4/Rt+M9ualc=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0016",
+            "pos": {
+                "x": 67,
+                "y": 7
+            },
+            "rngState": "15yJrIkwhwzqzRLeB5CORhZSRWE78FSjcAEwSEk93Kg=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0017",
+            "pos": {
+                "x": 98,
+                "y": 37
+            },
+            "rngState": "NzTIZ20UFyz7nWYrHI39G5qLmZQc4V+mmNOh2HXAEg8=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0018",
+            "pos": {
+                "x": 20,
+                "y": 2
+            },
+            "rngState": "wPj5AMaKVwxgmPv3ofVvAJrPBqYWn8lMuAXHBQLU9jc=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0019",
+            "pos": {
+                "x": 56,
+                "y": 22
+            },
+            "rngState": "oJwjPfPkjF9KOM0QDrTl+IX13ZW0F9M++gvJrXPNUm8=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0020",
+            "pos": {
+                "x": 92,
+                "y": 36
+            },
+            "rngState": "SLXtCQHexphkGAo02qpTA6057+aQICxEGUpe/ivumAE=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0021",
+            "pos": {
+                "x": 74,
+                "y": 28
+            },
+            "rngState": "vG8IY46qq71nTUYDVxOUM321peGoRVmBZfraH/RRt6M=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0022",
+            "pos": {
+                "x": 96,
+                "y": 37
+            },
+            "rngState": "RAZJ+NObiN3oLz20rr4KxsrI0BFvlnUaUgEw7cY1cig=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0023",
+            "pos": {
+                "x": 58,
+                "y": 10
+            },
+            "rngState": "ym0WYdP3h5CkFozDzoBdROGkZq/nx1Qdn+hb9JKmTzw=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0024",
+            "pos": {
+                "x": 51,
+                "y": 28
+            },
+            "rngState": "r+uEbrPGAWZAMwVg9thfx8RtvWOkLM0IWKq0dmepjKs=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0025",
+            "pos": {
+                "x": 20,
+                "y": 15
+            },
+            "rngState": "aUmAVO+6i7V3nu5Wq0ePQ/Vnm4IhDrIplzz4bTV3y1A=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0026",
+            "pos": {
+                "x": 82,
+                "y": 26
+            },
+            "rngState": "ym71FXw0UWuhz+6F7nIg9/ZaKoyGjVGPsWhQoHi466w=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0027",
+            "pos": {
+                "x": 52,
+                "y": 1
+            },
+            "rngState": "nZAPRl82Qwv2ZDnxmm4Kbwu+bsnQyVjtzT625iFS0TY=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0028",
+            "pos": {
+                "x": 19,
+                "y": 40
+            },
+            "rngState": "LwN179oTuwrZRGuzakGi6k3EqYqP2Nj+9fwPjHFYCcg=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0029",
+            "pos": {
+                "x": 84,
+                "y": 0
+            },
+            "rngState": "7oYgRMnCK2MhjJso73KrafZsbL3spwu9Nq6caG8SF38=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0030",
+            "pos": {
+                "x": 28,
+                "y": 23
+            },
+            "rngState": "Fi0JygpM8huW08cvXR0dkfA49UN7mzQ3QMKnNBb8uz8=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0031",
+            "pos": {
+                "x": 90,
+                "y": 34
+            },
+            "rngState": "6w60U0jDjhXKcMT43OQb5EE40vias3rciaaFmQSo4Vk=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0032",
+            "pos": {
+                "x": 83,
+                "y": 21
+            },
+            "rngState": "c4oRUVG42ejnP0bOK5F3MV5btuk2+w1z2Mv/vVfl1D8=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0033",
+            "pos": {
+                "x": 57,
+                "y": 7
+            },
+            "rngState": "Hmt4EbMRAYF57KSCu7FUiwZqNnWvjb0FpoGYuWkx0M8=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0034",
+            "pos": {
+                "x": 96,
+                "y": 13
+            },
+            "rngState": "sMRvHus3i+etqTt++NCEstYqzUHo/uSiJKzPQL+mmcY=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0035",
+            "pos": {
+                "x": 72,
+                "y": 43
+            },
+            "rngState": "wQA5mtkb9vq+W+VrFDvyW3vMbUKxVSqXXOet4OSVHbc=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0036",
+            "pos": {
+                "x": 22,
+                "y": 2
+            },
+            "rngState": "cplJlVISKgN9vBVD3B0n83uUOEBEA//hrrIg9MNYAeg=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0037",
+            "pos": {
+                "x": 54,
+                "y": 28
+            },
+            "rngState": "YfC7gsea3mxfh72JvrS25DNjqRyYHIuFzx1HksvXb4k=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0038",
+            "pos": {
+                "x": 40,
+                "y": 40
+            },
+            "rngState": "6kP3gCOD2vkk69lUB9doE78mCzQETU7lDt8j5ihE0eA=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0039",
+            "pos": {
+                "x": 70,
+                "y": 20
+            },
+            "rngState": "sxO5ilzMCULB1C82qt983IjkKZg0DeRHgYSvtHk0Qyk=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0040",
+            "pos": {
+                "x": 44,
+                "y": 6
+            },
+            "rngState": "70sk5XXTnHCMbYYUfaJOoSNiDiUuKv6wrHebvuQAYPY=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0041",
+            "pos": {
+                "x": 2,
+                "y": 30
+            },
+            "rngState": "cNIc4ZRReFKEfdINkVgZI8vVDGrucpnV+ROCqEtXrko=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0042",
+            "pos": {
+                "x": 83,
+                "y": 8
+            },
+            "rngState": "CaMEoOKOawov5oJGDBJ5L2HnLxBXmEgzyqYT8Aipf30=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0043",
+            "pos": {
+                "x": 73,
+                "y": 3
+            },
+            "rngState": "t7n+zGvo9N+kumfv5WXth3PVEve+v+HYLmx25kkf9pU=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0044",
+            "pos": {
+                "x": 78,
+                "y": 27
+            },
+            "rngState": "yDQwrQ9Xkvapi1kJgsxFJV1SQMG4CvsO+M0pJNlua0o=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0045",
+            "pos": {
+                "x": 32,
+                "y": 20
+            },
+            "rngState": "g0Q+1D1uWUBVSKg+UdltMTAf5AyvCWUPZGBj81wd8h4=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0046",
+            "pos": {
+                "x": 73,
+                "y": 39
+            },
+            "rngState": "mtDCj8tRQlsNiiU1HRdIWE71dFPsgVMWmWvQi5Azk9s=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0047",
+            "pos": {
+                "x": 8,
+                "y": 2
+            },
+            "rngState": "yaw4QVI3LTDMpfVfS/TEOM1cAB3jOupH5WVZ8f19qUk=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0048",
+            "pos": {
+                "x": 38,
+                "y": 36
+            },
+            "rngState": "jAD+xKGwyl89GjEEx3oDzY7XY0E89fo9wUxN+LQoD6Q=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0049",
+            "pos": {
+                "x": 13,
+                "y": 15
+            },
+            "rngState": "G+W49hh6uwkF0P7io5irUITcdIS/Av6oMgnSNxghobc=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0050",
+            "pos": {
+                "x": 7,
+                "y": 17
+            },
+            "rngState": "3WTiB/934/nhyvZNhNXqN7MVBSbapWwghihwFfWHjBQ=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0051",
+            "pos": {
+                "x": 0,
+                "y": 10
+            },
+            "rngState": "nRALVX8shkIK3Sb4xXv0ZQtbkpZ/t0yV9zOrKjKRb7U=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0052",
+            "pos": {
+                "x": 9,
+                "y": 22
+            },
+            "rngState": "kEaAXXCo5jTvyIphocCrnwRuWMpxF8R8JKZb+OvzagI=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0053",
+            "pos": {
+                "x": 99,
+                "y": 45
+            },
+            "rngState": "GhxOA3Pf04nC7WPlA9nyxoK9L0s4Td/yDnoqeBOoijA=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0054",
+            "pos": {
+                "x": 25,
+                "y": 49
+            },
+            "rngState": "n3QZSL7D0kj9D3LVK+O2z3w4DZVZmB/Qpuot3L9Bgjw=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0055",
+            "pos": {
+                "x": 45,
+                "y": 46
+            },
+            "rngState": "dEqv919/sjyAenFaQ5Jtf8eo6zumguHIkToFzIKgSns=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0056",
+            "pos": {
+                "x": 39,
+                "y": 20
+            },
+            "rngState": "5tXjnPvaysg/pAYgHBUHDRbwQ5AesMAwAo0mJWO09V0=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0057",
+            "pos": {
+                "x": 78,
+                "y": 48
+            },
+            "rngState": "LF33H2lBG3CJq7PIfu7AoFfgVQV8Vh++eYAzBdfcr40=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0058",
+            "pos": {
+                "x": 99,
+                "y": 0
+            },
+            "rngState": "kwvLGynl6WpetP3whFwJaiFMmyBx2OV/IEPpR7MeIJw=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0059",
+            "pos": {
+                "x": 0,
+                "y": 47
+            },
+            "rngState": "UFsSOSStYfZgPHIH/3WvVvOpSvRkNWgLdCRj9ADTN8g=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0060",
+            "pos": {
+                "x": 21,
+                "y": 7
+            },
+            "rngState": "oVUkU1Ay2KwYVeh4i4XiK6XUuwkREe8GWLGuP1QUbao=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0061",
+            "pos": {
+                "x": 34,
+                "y": 0
+            },
+            "rngState": "Vcb9FAKdspK8h/qY7AAWpHkvSlKWGeOsxLhjQMqB3JA=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0062",
+            "pos": {
+                "x": 77,
+                "y": 21
+            },
+            "rngState": "7PjSs1q5IOfxPop1yIx3wHgLZWu00M+0KRRdxreNqxA=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0063",
+            "pos": {
+                "x": 28,
+                "y": 10
+            },
+            "rngState": "4okTf9hoEihgAZjGu+RlawIYGETRcx9kOCV9W2LDhls=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0064",
+            "pos": {
+                "x": 15,
+                "y": 40
+            },
+            "rngState": "nq5zpHolMHNhu5e2BAzTibix4mtUrpTGHBe1GH9i3nw=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0065",
+            "pos": {
+                "x": 93,
+                "y": 37
+            },
+            "rngState": "gQ7lzUAX/QMJUyEY7nQVOSvnCDFNEgji/3GSOKfwCno=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0066",
+            "pos": {
+                "x": 12,
+                "y": 31
+            },
+            "rngState": "sJt3PzlLkOmJRhmhvr3Og1MwFjLE08CsUDCgAt4IkPU=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0067",
+            "pos": {
+                "x": 77,
+                "y": 46
+            },
+            "rngState": "GaRwdCF+kfVFdfGV2h6QrTz74AiGWmfwrDA/1n/N+hQ=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0068",
+            "pos": {
+                "x": 9,
+                "y": 29
+            },
+            "rngState": "Z+11S5Em2q4BjFUBtQSf6idJDd6VTlBh2KyxQGfocEw=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0069",
+            "pos": {
+                "x": 37,
+                "y": 16
+            },
+            "rngState": "XJc9TblmImc0s1zWoSaIAOzy1y8p49qKgAk7E3xTll0=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0070",
+            "pos": {
+                "x": 15,
+                "y": 48
+            },
+            "rngState": "yGjLW2zlRGbbgazWp5i1obul8DBqNu8XSAg/Kb9rb00=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0071",
+            "pos": {
+                "x": 40,
+                "y": 48
+            },
+            "rngState": "USMFOmi3mdHrlIEniQLX6Ba/wqpK3c9fHFs0gpT5Ij8=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0072",
+            "pos": {
+                "x": 83,
+                "y": 35
+            },
+            "rngState": "n24Im6O9nlpbEfIcn46pgZDgR8pss0mWHZrjCO1XkBA=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0073",
+            "pos": {
+                "x": 55,
+                "y": 25
+            },
+            "rngState": "jWqMhg/zOrYCXmHvGm9z5OFUqAWvrKROVUEJ/C+EojY=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0074",
+            "pos": {
+                "x": 97,
+                "y": 25
+            },
+            "rngState": "+iptHA5CqSv8O+YK7OmoV5pCO++47AKGLAK/iKLuywg=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0075",
+            "pos": {
+                "x": 62,
+                "y": 11
+            },
+            "rngState": "TfmjZV3ImhBlY4SEEXMDae92E0PuXsGKj5wurKwU0Hc=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0076",
+            "pos": {
+                "x": 18,
+                "y": 18
+            },
+            "rngState": "F0XnB+xvX1v6Sp5MFQnmwBg6BMmkjR5Ikva9Z50Yxnw=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0077",
+            "pos": {
+                "x": 32,
+                "y": 32
+            },
+            "rngState": "tPdN/4Fq6VeFOygNv4rlcir0ezBk2C31n8fecWnrJFA=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0078",
+            "pos": {
+                "x": 61,
+                "y": 5
+            },
+            "rngState": "oFc30WV5AwftGhL2XncxjInPbywiPrBLGw5/phFNK5g=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0079",
+            "pos": {
+                "x": 76,
+                "y": 37
+            },
+            "rngState": "x6Dfx4BmJTAP6/WMR7SDS/ZOJkFLaS9NWsWPGbi77mQ=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0080",
+            "pos": {
+                "x": 38,
+                "y": 24
+            },
+            "rngState": "Pn+1VUIG21qR8wy3TQEFJLEr/LeeK23MndQ5SomAja4=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0081",
+            "pos": {
+                "x": 84,
+                "y": 29
+            },
+            "rngState": "BR1zDZlAqtsrSN8P/lDC0s4l5M1qH/a+347k/FBOUws=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0082",
+            "pos": {
+                "x": 41,
+                "y": 0
+            },
+            "rngState": "IhWaT3hl8b12YfrXovsupM8RyaDzKtcWt4biQRIRsSA=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0083",
+            "pos": {
+                "x": 42,
+                "y": 0
+            },
+            "rngState": "CmeyNsGdhIqeOcTGGExZaGmPTHHS3ieqIJBI4WX98Y0=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0084",
+            "pos": {
+                "x": 17,
+                "y": 15
+            },
+            "rngState": "k+q467hqdzstKEFTf8zb8V0jRCd7dGw2kIWPsio6SBo=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0085",
+            "pos": {
+                "x": 77,
+                "y": 1
+            },
+            "rngState": "X1WhiG8wt3PzD1Qxzp4XmmcOlXYFzwmgtZdVmQ/EvP0=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0086",
+            "pos": {
+                "x": 91,
+                "y": 18
+            },
+            "rngState": "1M5ePnXY3eWkXpCgv+jI4zquSpIXoSflVgF0IRusjWM=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0087",
+            "pos": {
+                "x": 20,
+                "y": 20
+            },
+            "rngState": "Sr2pUwSGLbKVkJ1upblu+bb2MHh2Atyl2PaDzvLjE/8=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0088",
+            "pos": {
+                "x": 40,
+                "y": 46
+            },
+            "rngState": "fUSwXebLONll2ZysdbWin5A9Nj4MVVHtdtE/urOqLns=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0089",
+            "pos": {
+                "x": 73,
+                "y": 20
+            },
+            "rngState": "wx6bZpbfS8+PXJTl6CubeN9p9FKZzhIeO+8TmDv/miM=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0090",
+            "pos": {
+                "x": 54,
+                "y": 4
+            },
+            "rngState": "jELQ02vZyRSI95mBwq1OfPQ/BQI9/LrZCbg2IssG34k=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0091",
+            "pos": {
+                "x": 48,
+                "y": 4
+            },
+            "rngState": "Y+z+uH1Q/QB68w+b2eVSIqm6cEzjCW0+GNHCGG/rlnc=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0092",
+            "pos": {
+                "x": 94,
+                "y": 11
+            },
+            "rngState": "EfW6UR8GOCQVizjJeFmjp4gag1sUvtBmvQKVkFBt9sw=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0093",
+            "pos": {
+                "x": 43,
+                "y": 22
+            },
+            "rngState": "8lME73Z2lMEm9CZqNLhrR+8loCu+1Ym2BLa+8yhxZ2I=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0094",
+            "pos": {
+                "x": 53,
+                "y": 22
+            },
+            "rngState": "M+sHqZekd30dRB8JFhpD8LQ5kIhP1gOnGx+ocVXzUNU=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0095",
+            "pos": {
+                "x": 18,
+                "y": 47
+            },
+            "rngState": "o3hxVQD9SmTkcCd9m1BfA1hMipjKE8jzd6ARryCHTms=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0096",
+            "pos": {
+                "x": 82,
+                "y": 17
+            },
+            "rngState": "SzGvLtg05pVFEmEC0RmzNS5n3NQ68qg2tJ63hnij5wQ=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0097",
+            "pos": {
+                "x": 66,
+                "y": 31
+            },
+            "rngState": "vm19tnsyviv1RJV2VthDa4u7VheVZ/NsPuCvBI1H35U=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0098",
+            "pos": {
+                "x": 16,
+                "y": 45
+            },
+            "rngState": "4cr+w4EXkBCXgq12cdST8VpeYN3OWvT0slkbl9Rp5MI=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0099",
+            "pos": {
+                "x": 87,
+                "y": 2
+            },
+            "rngState": "6BUbEf7bk39F6C0nEOwrh3H84hiuxQ+ziHHDoPV2Hio=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        },
+        {
+            "name": "Minion #0100",
+            "pos": {
+                "x": 64,
+                "y": 38
+            },
+            "rngState": "wpshj9m5eb5cby93VKHalqxPn6m5z2x0WHWXEHlUB2c=",
+            "infectionState": {
+                "type": "healthy",
+                "since": 0
+            },
+            "direction": "X"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+image: udsdepend/cp23-project-env:latest
+
+build:
+  stage: build
+  script:
+    - just lint
+    - just build
+    - just doc
+
+test:
+  stage: test
+  # Remove the following line, when your rocket is ready. 🚀
+  allow_failure: false
+  script:
+    - just test

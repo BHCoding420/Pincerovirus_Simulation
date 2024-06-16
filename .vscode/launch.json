@@ -1,0 +1,44 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "We ♥ NP (Slug)",
+      "cargo": {
+        "args": ["build", "--bin=spread-sim", "--package=spread-sim"],
+        "filter": {
+          "name": "spread-sim",
+          "kind": "bin"
+        }
+      },
+      "args": [
+        "--scenario",
+        "scenarios/we_love_np.json",
+        "--out",
+        "out/we_love_np.result.json"
+      ],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "We ♥ NP (Rocket)",
+      "cargo": {
+        "args": ["build", "--bin=spread-sim", "--package=spread-sim"],
+        "filter": {
+          "name": "spread-sim",
+          "kind": "bin"
+        }
+      },
+      "args": [
+        "--scenario",
+        "scenarios/we_love_np.json",
+        "--out",
+        "out/we_love_np.result.json",
+        "--rocket"
+      ],
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "folders": [{ "name": "CP23 Project", "path": "." }],
+  "settings": {
+    "rust-analyzer.rustfmt.extraArgs": ["+nightly"],
+    "[rust]": {
+      "editor.formatOnSave": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "rust-lang.rust-analyzer",
+      "serayuzgur.crates",
+      "tamasfe.even-better-toml",
+      "streetsidesoftware.code-spell-checker",
+      "vadimcn.vscode-lldb"
+    ]
+  }
+}

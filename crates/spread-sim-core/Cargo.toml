@@ -1,0 +1,13 @@
+[package]
+name = "spread-sim-core"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+base64 = "0.21.2"  # PRIVATE
+base64-serde = "0.7.0"  # PRIVATE
+ring = "0.16.20"  # PRIVATE
+serde = { version = "1.0.163", features = ["derive", "rc"] }
+serde_json = "1.0.96"  # PRIVATE
+thiserror = "1.0.40"  # PRIVATE

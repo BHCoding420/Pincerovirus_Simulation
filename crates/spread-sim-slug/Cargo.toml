@@ -1,0 +1,8 @@
+[package]
+name = "spread-sim-slug"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+spread-sim-core = { path = "../spread-sim-core" }
